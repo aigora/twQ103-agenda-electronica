@@ -4,9 +4,9 @@ Una agenda electrónica para profesores en la que se pueda añadir nombres de al
 
 ## Integrantes del equipo
 
-María Fermosel Álvarez 53244
-Miguel Valiente Alfageme 52683
-Alejandro De Maeseneire 53207
+María Fermosel Álvarez
+Miguel Valiente Alfageme 
+Alejandro De Maeseneire
 
 ## Objetivos del trabajo
 
