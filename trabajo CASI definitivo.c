@@ -55,14 +55,14 @@ void main()
 			break;
 			case 3: 
 			{
-				printf("¿Por que dato del alumno desea buscarle?\n");
+				printf("Â¿Por que dato del alumno desea buscarle?\n");
 				BuscarAlumno(ficha,num_alumnos); 
 			}
 			break;
 			case 4: 
 			{
 				n=Menu2();
-				printf("¿Por que dato del alumno desea ordenar?\n");
+				printf("Â¿Por que dato del alumno desea ordenar?\n");
 				OrdenarAlumnos(ficha,num_alumnos,n); 
 				MostrarTodosAlumnos(ficha,num_alumnos); 
 			}
@@ -89,7 +89,7 @@ void main()
 
 
 
-//Función que te muestra el menú
+//FunciÃ³n que te muestra el menÃº
 int Menu()
 {
 	int opcion=-1;
@@ -113,7 +113,7 @@ int Menu()
 }
 
 
-//Función que pide que introduzcas los datos del alumno
+//FunciÃ³n que pide que introduzcas los datos del alumno
 alumno PedirAlumno()
 {
 	alumno c;
@@ -132,7 +132,7 @@ alumno PedirAlumno()
 	return c;
 }
 
-//función que calcula el número de alumnos que se han introducido
+//funciÃ³n que calcula el nÃºmero de alumnos que se han introducido
 void NuevoAlumno(alumno ficha[], int* num, alumno c)
 {
 	int n=*num;
@@ -145,7 +145,7 @@ void NuevoAlumno(alumno ficha[], int* num, alumno c)
 }
 
 
-//función que lee el fichero donde se han almacenado los datos del alumno
+//funciÃ³n que lee el fichero donde se han almacenado los datos del alumno
 int LeerTodosAlumnos(char fichero[],alumno ficha[],int* num)
 {
 	alumno alumn;
@@ -176,7 +176,7 @@ int LeerAlumno(FILE* f,alumno* c)
 }
 
 
-//función que imprime los datos del alumno
+//funciÃ³n que imprime los datos del alumno
 void MostrarTodosAlumnos(alumno ficha[],int num)
 {
 	int i;
@@ -193,7 +193,7 @@ void MostrarTodosAlumnos(alumno ficha[],int num)
 
 
 
-//función que guarda los datos de la ficha en el fichero
+//funciÃ³n que guarda los datos de la ficha en el fichero
 int GuardarFicha(char fichero[],alumno ficha[],int num)
 {	
 	int i;
